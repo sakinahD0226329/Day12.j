@@ -25,7 +25,15 @@ public class day12 {
         // Memasukkan tinggi berupa bilangan pecahan
         System.out.print("Masukkan Tinggi    : ");
         double tinggi = input.nextDouble();
+       
+        // Memasukkan hobi berupa teks
+        System.out.print("Masukkan Hobi      : ");
+        String hobi = input.nextline();
 
+        // input jurusan berupa teks
+        System.out.print("Masukkan Jurusan   : ");
+        String jurusan = input.nextline();
+       
         // Menampilkan data yang telah dimasukkan
         System.out.println();
         System.out.println("==== BIO DATA ====");
@@ -33,6 +41,8 @@ public class day12 {
         System.out.println("Alamat    : " + alamat);
         System.out.println("Umur      : " + umur);
         System.out.println("Tinggi    : " + tinggi);
+        System.out.println("Hobi      : " + hobi);
+        System.out.println("Jurusan   : " + jurusan);
 
         // Menutup scanner setelah selesai digunakan
         input.close();
